@@ -1,14 +1,22 @@
-import DummyClass from '../src/readable-ansi'
+import t from '../src/readable-ansi'
+import { wrap as w } from '../src/common'
+import { CSI } from './util'
 
-/**
- * Dummy test
- */
-describe('Dummy test', () => {
-  it('works if true is truthy', () => {
-    expect(true).toBeTruthy()
+describe('pure text', () => {
+  it('pure text', () => {
+    const str = 'pure text'
+    expect(t(str)).toBe(str)
+  })
+})
+
+describe('unknown', () => {
+  it('unknown', () => {
+    const str = CSI + '1Z'
+    expect(t(str)).toBe(str)
   })
 
-  it('DummyClass is instantiable', () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass)
+  it('unknown code', () => {
+    const str = CSI + '200m'
+    expect(t(str)).toBe(w('200?'))
   })
 })

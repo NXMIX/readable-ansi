@@ -32,6 +32,7 @@
     "precommit": "lint-staged",
     "prepush": "npm run test:prod && npm run build",
     "commitmsg": "validate-commit-msg",
+    "example": "ts-node example.ts",
     "travis-deploy-once": "travis-deploy-once"
   },
   "lint-staged": {
@@ -103,5 +104,9 @@
     "typescript": "^2.9.1",
     "validate-commit-msg": "^2.14.0",
     "travis-deploy-once": "^5.0.0"
+  },
+  "dependencies": {
+    "@nxmix/tokenize-ansi": "^3.0.0",
+    "chalk": "^2.4.1"
   }
 }
