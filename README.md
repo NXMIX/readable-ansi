@@ -3,7 +3,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Build Status](https://travis-ci.org/NXMIX/readable-ansi.svg)](https://travis-ci.org/NXMIX/readable-ansi)
 [![Coverage Status](https://coveralls.io/repos/github/NXMIX/readable-ansi/badge.svg)](https://coveralls.io/github/NXMIX/readable-ansi)
-[![npm](https://img.shields.io/npm/v/@nxmix/readable-ansi.svg)](https://www.npmjs.com/package/@nxmix/readable-ansi/)
+[![npm](https://img.shields.io/npm/v/@nxmix/readable-ansi.svg)](https://www.npmjs.com/package/@nxmix/readable-ansi/) [![Greenkeeper badge](https://badges.greenkeeper.io/NXMIX/readable-ansi.svg)](https://greenkeeper.io/)
 
 > visualize a string that includes ansi codes.
 
