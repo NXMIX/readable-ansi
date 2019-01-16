@@ -1,0 +1,3 @@
+var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"32":"Variable","64":"Function"},"rows":[{"id":0,"kind":64,"name":"wrap","url":"globals.html#wrap","classes":"tsd-kind-function tsd-is-not-exported"},{"id":1,"kind":32,"name":"NumArray","url":"globals.html#numarray","classes":"tsd-kind-variable tsd-is-not-exported"},{"id":2,"kind":32,"name":"ZeroCode","url":"globals.html#zerocode","classes":"tsd-kind-variable tsd-is-not-exported"},{"id":3,"kind":64,"name":"numberToSubStr","url":"globals.html#numbertosubstr","classes":"tsd-kind-function tsd-is-not-exported"},{"id":4,"kind":64,"name":"t","url":"globals.html#t","classes":"tsd-kind-function"}]};
